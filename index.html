@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>排列5 · 开奖数据台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/app.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scan" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-top">
+      <p class="brand">排列<span>5</span></p>
+      <p class="brand-sub" id="metaRange">加载中…</p>
+    </div>
+    <div class="hero-main">
+      <p class="eyebrow" id="latestMeta">—</p>
+      <div class="digits" id="latestDigits" aria-label="最新开奖号码"></div>
+      <p class="lede">官方历史开奖数据的可视化台，覆盖号码频率、形态分布与销售奖池走势。</p>
+    </div>
+    <div class="hero-stats" id="kpiRow"></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" data-panel="analysis" role="tab">号码分析</button>
+    <button class="tab" data-panel="shape" role="tab">形态分布</button>
+    <button class="tab" data-panel="market" role="tab">市场走势</button>
+    <button class="tab" data-panel="math" role="tab">数学检验</button>
+    <button class="tab" data-panel="tool" role="tab">未开号池</button>
+    <button class="tab" data-panel="history" role="tab">历史开奖</button>
+  </nav>
+
+  <main>
+    <div class="toolbar range-bar" id="rangeBar">
+      <label>
+        样本范围
+        <select id="rangeSelect">
+          <option value="all">全部历史</option>
+          <option value="recent365">近 365 期</option>
+          <option value="recent100" selected>近 100 期</option>
+        </select>
+      </label>
+      <p class="hint" id="rangeHint"></p>
+    </div>
+
+    <section id="panel-analysis" class="panel is-active">
+      <div class="grid two">
+        <article class="panel-block">
+          <h2>号码出现频率</h2>
+          <p class="desc">0–9 在五位合计中的出现次数，虚线为理论均值。</p>
+          <canvas id="chartOverall" height="220"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>各位号码热力</h2>
+          <p class="desc">万/千/百/十/个位各自对 0–9 的出现强度。</p>
+          <div id="heatMap" class="heat"></div>
+        </article>
+      </div>
+      <article class="panel-block">
+        <h2>分位对比</h2>
+        <p class="desc">五个位置各自的号码分布，便于观察偏态。</p>
+        <canvas id="chartPositions" height="160"></canvas>
+      </article>
+    </section>
+
+    <section id="panel-shape" class="panel">
+      <div class="grid two">
+        <article class="panel-block">
+          <h2>和值分布</h2>
+          <p class="desc">五位数字之和，理论中心约在 22.5。</p>
+          <canvas id="chartSum" height="220"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>跨度分布</h2>
+          <p class="desc">最大号 − 最小号，跨度越大号码越分散。</p>
+          <canvas id="chartSpan" height="220"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>奇偶比</h2>
+          <p class="desc">奇数位个数（0–5）。</p>
+          <canvas id="chartOdd" height="220"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>去重个数</h2>
+          <p class="desc">五个号码中不重复数字的数量（含重号形态）。</p>
+          <canvas id="chartUnique" height="220"></canvas>
+        </article>
+      </div>
+    </section>
+
+    <section id="panel-market" class="panel">
+      <div class="toolbar">
+        <p class="hint">近 180 期销售、奖池与中奖注数走势（有缺失的期次会留空）。</p>
+      </div>
+      <div class="grid one">
+        <article class="panel-block">
+          <h2>销售额</h2>
+          <canvas id="chartSale" height="140"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>开奖后奖池</h2>
+          <canvas id="chartPool" height="140"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>一等奖注数</h2>
+          <canvas id="chartPrize" height="140"></canvas>
+        </article>
+      </div>
+    </section>
+
+    <section id="panel-math" class="panel">
+      <article class="panel-block verdict" id="mathVerdict"></article>
+      <div class="tool-kpis" id="mathKpis"></div>
+
+      <div class="grid two math-gap">
+        <article class="panel-block">
+          <h2>覆盖曲线</h2>
+          <p class="desc">已出现的不同号码数 |Sₜ|，对照均匀有放回模型的期望 N(1−(1−1/N)ᵗ)。两条线贴合，说明整体像均匀抽样。</p>
+          <canvas id="chartCoverage" height="200"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>撞号强度</h2>
+          <p class="desc">滚动 365 期里「再次开出已出现号码」的比例。虚线是该时点理论撞号概率 |Sₜ|/N，它会随覆盖缓慢上升。</p>
+          <canvas id="chartRepeat" height="200"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>和值是否漂移</h2>
+          <p class="desc">滚动 365 期和值均值。理论中心 22.5。若长期偏离且不回归，才谈得上非平稳。</p>
+          <canvas id="chartSumRoll" height="200"></canvas>
+        </article>
+        <article class="panel-block">
+          <h2>滚动均匀性</h2>
+          <p class="desc">五位合计数字的 χ²（自由度 9）。横线是 5% 临界值 16.92。偶尔越线是大窗口噪声，持续越线才是结构。</p>
+          <canvas id="chartChiRoll" height="200"></canvas>
+        </article>
+      </div>
+
+      <article class="panel-block math-gap">
+        <h2>分位拟合</h2>
+        <p class="desc">每位 0–9 对照均匀多项分布。χ² 临界：5% 约 16.92，1% 约 21.67。最大偏离是该位频率离 10% 最远的百分点。</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>位置</th>
+                <th>χ²</th>
+                <th>近似 p</th>
+                <th>最大偏离</th>
+                <th>读法</th>
+              </tr>
+            </thead>
+            <tbody id="posBody"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <div class="grid two math-gap">
+        <article class="panel-block">
+          <h2>相同号码间隔</h2>
+          <p class="desc">同一五位组合两次开出之间的天数。稀有事件的等待可以很长，也可以偶然只有一天。</p>
+          <canvas id="chartGaps" height="200"></canvas>
+          <p class="hint" id="gapNote"></p>
+        </article>
+        <article class="panel-block">
+          <h2>分年撞号率</h2>
+          <p class="desc">当年开奖里，号码在此前历史中已经出现过的比例。覆盖变大后，这个比例理应缓慢抬升。</p>
+          <canvas id="chartYearRepeat" height="200"></canvas>
+        </article>
+      </div>
+
+      <article class="panel-block math-gap">
+        <h2>分年数字偏离</h2>
+        <p class="desc">每年五位合计中，各数字频率相对 10% 的偏离（百分点）。颜色越接近底色越接近均匀。</p>
+        <div id="yearHeat" class="heat year-heat"></div>
+      </article>
+
+      <article class="panel-block math-gap">
+        <h2>怎么读这些结果</h2>
+        <div class="notes" id="mathNotes"></div>
+      </article>
+    </section>
+
+    <section id="panel-tool" class="panel">
+      <article class="panel-block">
+        <h2>策略说明</h2>
+        <p class="desc" id="toolStrategy">
+          按「短期不撞历史号」过滤：从 100000 种号码里排除已开出过的组合，只在未开号池里查验 / 抽取。
+        </p>
+        <div class="tool-kpis" id="toolKpis"></div>
+      </article>
+
+      <div class="grid two" style="margin-top:1rem">
+        <article class="panel-block">
+          <h2>查验号码</h2>
+          <p class="desc">输入 5 位号码，看是否已在历史中开出。</p>
+          <div class="tool-row">
+            <input id="checkInput" type="text" inputmode="numeric" maxlength="9" placeholder="例如 81146 或 8 1 1 4 6" />
+            <button type="button" class="btn" id="checkBtn">查验</button>
+          </div>
+          <p class="tool-result" id="checkResult">—</p>
+        </article>
+
+        <article class="panel-block">
+          <h2>从未开号池抽取</h2>
+          <p class="desc">只从历史从未开出的组合里随机抽取，保证与已有开奖号码不重复。</p>
+          <div class="tool-row">
+            <label class="inline">
+              注数
+              <input id="pickCount" type="number" min="1" max="50" value="5" />
+            </label>
+            <button type="button" class="btn primary" id="pickBtn">抽取</button>
+            <button type="button" class="btn" id="copyBtn">复制</button>
+          </div>
+          <ul class="pick-list" id="pickList"></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="panel-history" class="panel">
+      <div class="toolbar history-bar">
+        <label>
+          搜索期号 / 日期 / 号码
+          <input id="searchInput" type="search" placeholder="例如 26293 或 8 1 1 4 6" />
+        </label>
+        <p class="hint" id="tableHint"></p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>期号</th>
+              <th>日期</th>
+              <th>开奖号</th>
+              <th>销售额</th>
+              <th>奖池</th>
+              <th>一等奖</th>
+              <th>公告</th>
+            </tr>
+          </thead>
+          <tbody id="historyBody"></tbody>
+        </table>
+      </div>
+      <div class="pager">
+        <button id="prevPage" type="button">上一页</button>
+        <span id="pageInfo">—</span>
+        <button id="nextPage" type="button">下一页</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p>数据来源：体育彩票官方接口 · 仅供研究展示，不构成投注建议</p>
+  </footer>
+
+  <a class="deerflow" href="https://deerflow.tech" target="_blank" rel="noopener noreferrer" title="Created By Deerflow">Created By Deerflow</a>
+</body>
+</html>

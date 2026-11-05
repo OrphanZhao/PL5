@@ -1,0 +1,3873 @@
+{
+  "summary": {
+    "totalDraws": 7768,
+    "uniqueResults": 7488,
+    "appearOnce": 7215,
+    "appearTwice": 266,
+    "appearThrice": 7,
+    "appear4plus": 0,
+    "dupComboCount": 273,
+    "drawsInvolvedInDup": 553,
+    "repeatEventCount": 280,
+    "gapDays": {
+      "min": 1,
+      "max": 7560,
+      "median": 2416.5,
+      "mean": 2598.8
+    }
+  },
+  "thrice": [
+    {
+      "result": "1 1 9 2 1",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "13069",
+          "drawTime": "2013-03-17"
+        },
+        {
+          "drawNum": "14070",
+          "drawTime": "2014-03-19"
+        },
+        {
+          "drawNum": "26056",
+          "drawTime": "2026-03-07"
+        }
+      ]
+    },
+    {
+      "result": "3 2 0 1 4",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "08029",
+          "drawTime": "2008-01-29"
+        },
+        {
+          "drawNum": "09069",
+          "drawTime": "2009-03-17"
+        },
+        {
+          "drawNum": "15080",
+          "drawTime": "2015-03-28"
+        }
+      ]
+    },
+    {
+      "result": "3 9 8 0 3",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "16216",
+          "drawTime": "2016-08-10"
+        },
+        {
+          "drawNum": "21020",
+          "drawTime": "2021-01-20"
+        },
+        {
+          "drawNum": "24302",
+          "drawTime": "2024-11-11"
+        }
+      ]
+    },
+    {
+      "result": "3 9 9 7 9",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "07029",
+          "drawTime": "2007-01-29"
+        },
+        {
+          "drawNum": "10290",
+          "drawTime": "2010-10-24"
+        },
+        {
+          "drawNum": "14296",
+          "drawTime": "2014-10-31"
+        }
+      ]
+    },
+    {
+      "result": "4 8 9 1 8",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "12296",
+          "drawTime": "2012-10-29"
+        },
+        {
+          "drawNum": "14310",
+          "drawTime": "2014-11-14"
+        },
+        {
+          "drawNum": "19247",
+          "drawTime": "2019-09-11"
+        }
+      ]
+    },
+    {
+      "result": "5 9 8 8 1",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "13307",
+          "drawTime": "2013-11-10"
+        },
+        {
+          "drawNum": "17039",
+          "drawTime": "2017-02-15"
+        },
+        {
+          "drawNum": "17312",
+          "drawTime": "2017-11-15"
+        }
+      ]
+    },
+    {
+      "result": "9 0 0 6 9",
+      "count": 3,
+      "draws": [
+        {
+          "drawNum": "17311",
+          "drawTime": "2017-11-14"
+        },
+        {
+          "drawNum": "21304",
+          "drawTime": "2021-11-14"
+        },
+        {
+          "drawNum": "25002",
+          "drawTime": "2025-01-02"
+        }
+      ]
+    }
+  ],
+  "twice": [
+    {
+      "result": "2 9 9 5 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16209",
+          "drawTime": "2016-08-03"
+        },
+        {
+          "drawNum": "26289",
+          "drawTime": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "result": "4 7 1 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12116",
+          "drawTime": "2012-05-02"
+        },
+        {
+          "drawNum": "26279",
+          "drawTime": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "result": "1 9 0 9 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15214",
+          "drawTime": "2015-08-09"
+        },
+        {
+          "drawNum": "26252",
+          "drawTime": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "result": "7 1 9 0 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "21069",
+          "drawTime": "2021-03-20"
+        },
+        {
+          "drawNum": "26198",
+          "drawTime": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "result": "6 6 5 0 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12030",
+          "drawTime": "2012-02-06"
+        },
+        {
+          "drawNum": "26186",
+          "drawTime": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "result": "1 2 4 4 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "22244",
+          "drawTime": "2022-09-11"
+        },
+        {
+          "drawNum": "26181",
+          "drawTime": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "result": "7 7 1 1 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "25070",
+          "drawTime": "2025-03-21"
+        },
+        {
+          "drawNum": "26172",
+          "drawTime": "2026-07-01"
+        }
+      ]
+    },
+    {
+      "result": "9 1 1 3 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12277",
+          "drawTime": "2012-10-10"
+        },
+        {
+          "drawNum": "26158",
+          "drawTime": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "result": "3 4 0 7 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "24192",
+          "drawTime": "2024-07-20"
+        },
+        {
+          "drawNum": "26150",
+          "drawTime": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "result": "9 6 8 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10118",
+          "drawTime": "2010-05-05"
+        },
+        {
+          "drawNum": "26131",
+          "drawTime": "2026-05-21"
+        }
+      ]
+    },
+    {
+      "result": "5 1 2 2 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15130",
+          "drawTime": "2015-05-17"
+        },
+        {
+          "drawNum": "26128",
+          "drawTime": "2026-05-18"
+        }
+      ]
+    },
+    {
+      "result": "3 4 3 0 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "25142",
+          "drawTime": "2025-06-01"
+        },
+        {
+          "drawNum": "26110",
+          "drawTime": "2026-04-30"
+        }
+      ]
+    },
+    {
+      "result": "3 4 3 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "21346",
+          "drawTime": "2021-12-26"
+        },
+        {
+          "drawNum": "26106",
+          "drawTime": "2026-04-26"
+        }
+      ]
+    },
+    {
+      "result": "2 1 7 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "23209",
+          "drawTime": "2023-08-07"
+        },
+        {
+          "drawNum": "26105",
+          "drawTime": "2026-04-25"
+        }
+      ]
+    },
+    {
+      "result": "0 0 4 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11199",
+          "drawTime": "2011-07-25"
+        },
+        {
+          "drawNum": "26084",
+          "drawTime": "2026-04-04"
+        }
+      ]
+    },
+    {
+      "result": "1 9 5 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "24261",
+          "drawTime": "2024-09-27"
+        },
+        {
+          "drawNum": "26079",
+          "drawTime": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "result": "2 0 9 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18157",
+          "drawTime": "2018-06-13"
+        },
+        {
+          "drawNum": "26059",
+          "drawTime": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "result": "2 1 6 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "21134",
+          "drawTime": "2021-05-24"
+        },
+        {
+          "drawNum": "26034",
+          "drawTime": "2026-02-03"
+        }
+      ]
+    },
+    {
+      "result": "8 9 6 3 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "22282",
+          "drawTime": "2022-10-23"
+        },
+        {
+          "drawNum": "26018",
+          "drawTime": "2026-01-18"
+        }
+      ]
+    },
+    {
+      "result": "6 9 5 6 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05099",
+          "drawTime": "2005-04-16"
+        },
+        {
+          "drawNum": "25347",
+          "drawTime": "2025-12-27"
+        }
+      ]
+    },
+    {
+      "result": "0 1 2 5 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08024",
+          "drawTime": "2008-01-24"
+        },
+        {
+          "drawNum": "25343",
+          "drawTime": "2025-12-23"
+        }
+      ]
+    },
+    {
+      "result": "5 1 3 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06353",
+          "drawTime": "2006-12-27"
+        },
+        {
+          "drawNum": "25324",
+          "drawTime": "2025-12-04"
+        }
+      ]
+    },
+    {
+      "result": "0 9 4 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17287",
+          "drawTime": "2017-10-21"
+        },
+        {
+          "drawNum": "25293",
+          "drawTime": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "result": "4 1 7 3 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14272",
+          "drawTime": "2014-10-07"
+        },
+        {
+          "drawNum": "25273",
+          "drawTime": "2025-10-14"
+        }
+      ]
+    },
+    {
+      "result": "8 9 8 5 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13217",
+          "drawTime": "2013-08-12"
+        },
+        {
+          "drawNum": "25271",
+          "drawTime": "2025-10-12"
+        }
+      ]
+    },
+    {
+      "result": "3 2 1 3 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12214",
+          "drawTime": "2012-08-08"
+        },
+        {
+          "drawNum": "25268",
+          "drawTime": "2025-10-09"
+        }
+      ]
+    },
+    {
+      "result": "6 2 7 6 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13257",
+          "drawTime": "2013-09-21"
+        },
+        {
+          "drawNum": "25240",
+          "drawTime": "2025-09-07"
+        }
+      ]
+    },
+    {
+      "result": "1 7 8 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12128",
+          "drawTime": "2012-05-14"
+        },
+        {
+          "drawNum": "25230",
+          "drawTime": "2025-08-28"
+        }
+      ]
+    },
+    {
+      "result": "7 8 4 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05230",
+          "drawTime": "2005-08-25"
+        },
+        {
+          "drawNum": "25219",
+          "drawTime": "2025-08-17"
+        }
+      ]
+    },
+    {
+      "result": "6 9 5 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18340",
+          "drawTime": "2018-12-13"
+        },
+        {
+          "drawNum": "25215",
+          "drawTime": "2025-08-13"
+        }
+      ]
+    },
+    {
+      "result": "8 6 8 5 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07202",
+          "drawTime": "2007-07-29"
+        },
+        {
+          "drawNum": "25213",
+          "drawTime": "2025-08-11"
+        }
+      ]
+    },
+    {
+      "result": "2 1 0 9 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17081",
+          "drawTime": "2017-03-29"
+        },
+        {
+          "drawNum": "25195",
+          "drawTime": "2025-07-24"
+        }
+      ]
+    },
+    {
+      "result": "2 2 1 8 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "24054",
+          "drawTime": "2024-03-04"
+        },
+        {
+          "drawNum": "25184",
+          "drawTime": "2025-07-13"
+        }
+      ]
+    },
+    {
+      "result": "8 9 4 5 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "25153",
+          "drawTime": "2025-06-12"
+        },
+        {
+          "drawNum": "25181",
+          "drawTime": "2025-07-10"
+        }
+      ]
+    },
+    {
+      "result": "2 5 0 9 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08309",
+          "drawTime": "2008-11-11"
+        },
+        {
+          "drawNum": "25157",
+          "drawTime": "2025-06-16"
+        }
+      ]
+    },
+    {
+      "result": "6 5 6 4 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14142",
+          "drawTime": "2014-05-30"
+        },
+        {
+          "drawNum": "25064",
+          "drawTime": "2025-03-15"
+        }
+      ]
+    },
+    {
+      "result": "3 6 6 1 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05002",
+          "drawTime": "2005-01-02"
+        },
+        {
+          "drawNum": "25038",
+          "drawTime": "2025-02-17"
+        }
+      ]
+    },
+    {
+      "result": "3 0 9 1 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17265",
+          "drawTime": "2017-09-29"
+        },
+        {
+          "drawNum": "25034",
+          "drawTime": "2025-02-13"
+        }
+      ]
+    },
+    {
+      "result": "6 5 6 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17074",
+          "drawTime": "2017-03-22"
+        },
+        {
+          "drawNum": "25006",
+          "drawTime": "2025-01-06"
+        }
+      ]
+    },
+    {
+      "result": "6 7 8 5 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05340",
+          "drawTime": "2005-12-13"
+        },
+        {
+          "drawNum": "24322",
+          "drawTime": "2024-12-01"
+        }
+      ]
+    },
+    {
+      "result": "8 4 1 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10174",
+          "drawTime": "2010-06-30"
+        },
+        {
+          "drawNum": "24305",
+          "drawTime": "2024-11-14"
+        }
+      ]
+    },
+    {
+      "result": "0 4 4 8 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16203",
+          "drawTime": "2016-07-28"
+        },
+        {
+          "drawNum": "24293",
+          "drawTime": "2024-11-02"
+        }
+      ]
+    },
+    {
+      "result": "0 6 3 9 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16126",
+          "drawTime": "2016-05-12"
+        },
+        {
+          "drawNum": "24241",
+          "drawTime": "2024-09-07"
+        }
+      ]
+    },
+    {
+      "result": "1 6 8 4 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14348",
+          "drawTime": "2014-12-22"
+        },
+        {
+          "drawNum": "24239",
+          "drawTime": "2024-09-05"
+        }
+      ]
+    },
+    {
+      "result": "4 3 0 6 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "24159",
+          "drawTime": "2024-06-17"
+        },
+        {
+          "drawNum": "24238",
+          "drawTime": "2024-09-04"
+        }
+      ]
+    },
+    {
+      "result": "9 7 3 7 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15156",
+          "drawTime": "2015-06-12"
+        },
+        {
+          "drawNum": "24208",
+          "drawTime": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "result": "5 1 5 2 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18212",
+          "drawTime": "2018-08-07"
+        },
+        {
+          "drawNum": "24201",
+          "drawTime": "2024-07-29"
+        }
+      ]
+    },
+    {
+      "result": "0 0 6 2 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14133",
+          "drawTime": "2014-05-21"
+        },
+        {
+          "drawNum": "24193",
+          "drawTime": "2024-07-21"
+        }
+      ]
+    },
+    {
+      "result": "0 1 7 8 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "21177",
+          "drawTime": "2021-07-06"
+        },
+        {
+          "drawNum": "24128",
+          "drawTime": "2024-05-17"
+        }
+      ]
+    },
+    {
+      "result": "2 1 8 0 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12174",
+          "drawTime": "2012-06-29"
+        },
+        {
+          "drawNum": "24112",
+          "drawTime": "2024-05-01"
+        }
+      ]
+    },
+    {
+      "result": "2 4 3 6 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17203",
+          "drawTime": "2017-07-29"
+        },
+        {
+          "drawNum": "24109",
+          "drawTime": "2024-04-28"
+        }
+      ]
+    },
+    {
+      "result": "6 8 2 4 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12007",
+          "drawTime": "2012-01-07"
+        },
+        {
+          "drawNum": "24031",
+          "drawTime": "2024-01-31"
+        }
+      ]
+    },
+    {
+      "result": "7 5 1 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16303",
+          "drawTime": "2016-11-05"
+        },
+        {
+          "drawNum": "24026",
+          "drawTime": "2024-01-26"
+        }
+      ]
+    },
+    {
+      "result": "1 2 4 0 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "23233",
+          "drawTime": "2023-08-31"
+        },
+        {
+          "drawNum": "24022",
+          "drawTime": "2024-01-22"
+        }
+      ]
+    },
+    {
+      "result": "0 8 1 5 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08009",
+          "drawTime": "2008-01-09"
+        },
+        {
+          "drawNum": "24012",
+          "drawTime": "2024-01-12"
+        }
+      ]
+    },
+    {
+      "result": "5 3 1 8 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18326",
+          "drawTime": "2018-11-29"
+        },
+        {
+          "drawNum": "23330",
+          "drawTime": "2023-12-10"
+        }
+      ]
+    },
+    {
+      "result": "9 4 5 5 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16117",
+          "drawTime": "2016-05-03"
+        },
+        {
+          "drawNum": "23323",
+          "drawTime": "2023-12-03"
+        }
+      ]
+    },
+    {
+      "result": "9 9 8 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06026",
+          "drawTime": "2006-01-26"
+        },
+        {
+          "drawNum": "23289",
+          "drawTime": "2023-10-30"
+        }
+      ]
+    },
+    {
+      "result": "3 8 2 6 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08172",
+          "drawTime": "2008-06-27"
+        },
+        {
+          "drawNum": "23284",
+          "drawTime": "2023-10-25"
+        }
+      ]
+    },
+    {
+      "result": "6 6 9 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13180",
+          "drawTime": "2013-07-06"
+        },
+        {
+          "drawNum": "23274",
+          "drawTime": "2023-10-15"
+        }
+      ]
+    },
+    {
+      "result": "9 6 1 0 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "22028",
+          "drawTime": "2022-01-28"
+        },
+        {
+          "drawNum": "23252",
+          "drawTime": "2023-09-19"
+        }
+      ]
+    },
+    {
+      "result": "1 3 8 9 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12021",
+          "drawTime": "2012-01-21"
+        },
+        {
+          "drawNum": "23216",
+          "drawTime": "2023-08-14"
+        }
+      ]
+    },
+    {
+      "result": "8 5 3 0 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11254",
+          "drawTime": "2011-09-18"
+        },
+        {
+          "drawNum": "23212",
+          "drawTime": "2023-08-10"
+        }
+      ]
+    },
+    {
+      "result": "0 1 3 4 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15087",
+          "drawTime": "2015-04-04"
+        },
+        {
+          "drawNum": "23173",
+          "drawTime": "2023-07-02"
+        }
+      ]
+    },
+    {
+      "result": "7 2 1 1 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11065",
+          "drawTime": "2011-03-13"
+        },
+        {
+          "drawNum": "23169",
+          "drawTime": "2023-06-28"
+        }
+      ]
+    },
+    {
+      "result": "2 5 1 5 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07248",
+          "drawTime": "2007-09-13"
+        },
+        {
+          "drawNum": "23156",
+          "drawTime": "2023-06-15"
+        }
+      ]
+    },
+    {
+      "result": "5 6 3 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07294",
+          "drawTime": "2007-10-29"
+        },
+        {
+          "drawNum": "23144",
+          "drawTime": "2023-06-03"
+        }
+      ]
+    },
+    {
+      "result": "9 2 9 3 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12236",
+          "drawTime": "2012-08-30"
+        },
+        {
+          "drawNum": "23136",
+          "drawTime": "2023-05-26"
+        }
+      ]
+    },
+    {
+      "result": "6 3 2 8 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08230",
+          "drawTime": "2008-08-24"
+        },
+        {
+          "drawNum": "23100",
+          "drawTime": "2023-04-20"
+        }
+      ]
+    },
+    {
+      "result": "7 3 8 7 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17032",
+          "drawTime": "2017-02-08"
+        },
+        {
+          "drawNum": "23075",
+          "drawTime": "2023-03-26"
+        }
+      ]
+    },
+    {
+      "result": "0 6 5 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16086",
+          "drawTime": "2016-04-02"
+        },
+        {
+          "drawNum": "23064",
+          "drawTime": "2023-03-15"
+        }
+      ]
+    },
+    {
+      "result": "2 8 2 9 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08195",
+          "drawTime": "2008-07-20"
+        },
+        {
+          "drawNum": "23013",
+          "drawTime": "2023-01-13"
+        }
+      ]
+    },
+    {
+      "result": "4 2 2 5 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12067",
+          "drawTime": "2012-03-14"
+        },
+        {
+          "drawNum": "22332",
+          "drawTime": "2022-12-12"
+        }
+      ]
+    },
+    {
+      "result": "8 0 8 6 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09261",
+          "drawTime": "2009-09-25"
+        },
+        {
+          "drawNum": "22331",
+          "drawTime": "2022-12-11"
+        }
+      ]
+    },
+    {
+      "result": "7 6 1 3 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19179",
+          "drawTime": "2019-07-05"
+        },
+        {
+          "drawNum": "22276",
+          "drawTime": "2022-10-17"
+        }
+      ]
+    },
+    {
+      "result": "0 6 5 5 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07354",
+          "drawTime": "2007-12-28"
+        },
+        {
+          "drawNum": "22274",
+          "drawTime": "2022-10-15"
+        }
+      ]
+    },
+    {
+      "result": "7 3 5 1 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17045",
+          "drawTime": "2017-02-21"
+        },
+        {
+          "drawNum": "22254",
+          "drawTime": "2022-09-21"
+        }
+      ]
+    },
+    {
+      "result": "1 9 5 8 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08066",
+          "drawTime": "2008-03-13"
+        },
+        {
+          "drawNum": "22240",
+          "drawTime": "2022-09-07"
+        }
+      ]
+    },
+    {
+      "result": "5 4 4 1 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17170",
+          "drawTime": "2017-06-26"
+        },
+        {
+          "drawNum": "22228",
+          "drawTime": "2022-08-26"
+        }
+      ]
+    },
+    {
+      "result": "7 1 8 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10100",
+          "drawTime": "2010-04-17"
+        },
+        {
+          "drawNum": "22187",
+          "drawTime": "2022-07-16"
+        }
+      ]
+    },
+    {
+      "result": "9 6 6 3 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19150",
+          "drawTime": "2019-06-06"
+        },
+        {
+          "drawNum": "22184",
+          "drawTime": "2022-07-13"
+        }
+      ]
+    },
+    {
+      "result": "1 8 8 7 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16139",
+          "drawTime": "2016-05-25"
+        },
+        {
+          "drawNum": "22183",
+          "drawTime": "2022-07-12"
+        }
+      ]
+    },
+    {
+      "result": "7 8 9 3 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16070",
+          "drawTime": "2016-03-17"
+        },
+        {
+          "drawNum": "22156",
+          "drawTime": "2022-06-15"
+        }
+      ]
+    },
+    {
+      "result": "0 4 4 6 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13067",
+          "drawTime": "2013-03-15"
+        },
+        {
+          "drawNum": "22152",
+          "drawTime": "2022-06-11"
+        }
+      ]
+    },
+    {
+      "result": "1 9 6 4 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16291",
+          "drawTime": "2016-10-24"
+        },
+        {
+          "drawNum": "22147",
+          "drawTime": "2022-06-06"
+        }
+      ]
+    },
+    {
+      "result": "9 9 7 3 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10225",
+          "drawTime": "2010-08-20"
+        },
+        {
+          "drawNum": "22114",
+          "drawTime": "2022-05-04"
+        }
+      ]
+    },
+    {
+      "result": "8 9 3 8 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11282",
+          "drawTime": "2011-10-16"
+        },
+        {
+          "drawNum": "22110",
+          "drawTime": "2022-04-30"
+        }
+      ]
+    },
+    {
+      "result": "6 4 2 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09269",
+          "drawTime": "2009-10-03"
+        },
+        {
+          "drawNum": "22105",
+          "drawTime": "2022-04-25"
+        }
+      ]
+    },
+    {
+      "result": "5 0 0 9 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13195",
+          "drawTime": "2013-07-21"
+        },
+        {
+          "drawNum": "22042",
+          "drawTime": "2022-02-21"
+        }
+      ]
+    },
+    {
+      "result": "0 8 7 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09227",
+          "drawTime": "2009-08-22"
+        },
+        {
+          "drawNum": "22036",
+          "drawTime": "2022-02-15"
+        }
+      ]
+    },
+    {
+      "result": "5 1 5 3 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12017",
+          "drawTime": "2012-01-17"
+        },
+        {
+          "drawNum": "22020",
+          "drawTime": "2022-01-20"
+        }
+      ]
+    },
+    {
+      "result": "2 6 4 5 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10080",
+          "drawTime": "2010-03-28"
+        },
+        {
+          "drawNum": "21351",
+          "drawTime": "2021-12-31"
+        }
+      ]
+    },
+    {
+      "result": "2 4 4 8 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07212",
+          "drawTime": "2007-08-08"
+        },
+        {
+          "drawNum": "21338",
+          "drawTime": "2021-12-18"
+        }
+      ]
+    },
+    {
+      "result": "4 6 1 9 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19266",
+          "drawTime": "2019-09-30"
+        },
+        {
+          "drawNum": "21326",
+          "drawTime": "2021-12-06"
+        }
+      ]
+    },
+    {
+      "result": "1 7 0 3 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12218",
+          "drawTime": "2012-08-12"
+        },
+        {
+          "drawNum": "21322",
+          "drawTime": "2021-12-02"
+        }
+      ]
+    },
+    {
+      "result": "1 8 3 4 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09146",
+          "drawTime": "2009-06-02"
+        },
+        {
+          "drawNum": "21307",
+          "drawTime": "2021-11-17"
+        }
+      ]
+    },
+    {
+      "result": "4 6 8 3 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06321",
+          "drawTime": "2006-11-25"
+        },
+        {
+          "drawNum": "21296",
+          "drawTime": "2021-11-06"
+        }
+      ]
+    },
+    {
+      "result": "5 6 6 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "04040",
+          "drawTime": "2004-12-27"
+        },
+        {
+          "drawNum": "21288",
+          "drawTime": "2021-10-29"
+        }
+      ]
+    },
+    {
+      "result": "7 8 0 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13318",
+          "drawTime": "2013-11-21"
+        },
+        {
+          "drawNum": "21285",
+          "drawTime": "2021-10-26"
+        }
+      ]
+    },
+    {
+      "result": "0 9 7 4 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14344",
+          "drawTime": "2014-12-18"
+        },
+        {
+          "drawNum": "21243",
+          "drawTime": "2021-09-10"
+        }
+      ]
+    },
+    {
+      "result": "5 2 0 7 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11169",
+          "drawTime": "2011-06-25"
+        },
+        {
+          "drawNum": "21208",
+          "drawTime": "2021-08-06"
+        }
+      ]
+    },
+    {
+      "result": "4 6 9 5 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06186",
+          "drawTime": "2006-07-13"
+        },
+        {
+          "drawNum": "21206",
+          "drawTime": "2021-08-04"
+        }
+      ]
+    },
+    {
+      "result": "2 4 5 1 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "21145",
+          "drawTime": "2021-06-04"
+        },
+        {
+          "drawNum": "21201",
+          "drawTime": "2021-07-30"
+        }
+      ]
+    },
+    {
+      "result": "0 4 9 2 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12237",
+          "drawTime": "2012-08-31"
+        },
+        {
+          "drawNum": "21191",
+          "drawTime": "2021-07-20"
+        }
+      ]
+    },
+    {
+      "result": "7 5 7 2 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16348",
+          "drawTime": "2016-12-20"
+        },
+        {
+          "drawNum": "21172",
+          "drawTime": "2021-07-01"
+        }
+      ]
+    },
+    {
+      "result": "7 9 3 9 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08278",
+          "drawTime": "2008-10-11"
+        },
+        {
+          "drawNum": "21162",
+          "drawTime": "2021-06-21"
+        }
+      ]
+    },
+    {
+      "result": "9 0 5 9 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16274",
+          "drawTime": "2016-10-07"
+        },
+        {
+          "drawNum": "21158",
+          "drawTime": "2021-06-17"
+        }
+      ]
+    },
+    {
+      "result": "0 6 8 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06231",
+          "drawTime": "2006-08-27"
+        },
+        {
+          "drawNum": "21075",
+          "drawTime": "2021-03-26"
+        }
+      ]
+    },
+    {
+      "result": "9 7 2 1 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15111",
+          "drawTime": "2015-04-28"
+        },
+        {
+          "drawNum": "21058",
+          "drawTime": "2021-03-09"
+        }
+      ]
+    },
+    {
+      "result": "6 2 2 4 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09160",
+          "drawTime": "2009-06-16"
+        },
+        {
+          "drawNum": "21056",
+          "drawTime": "2021-03-07"
+        }
+      ]
+    },
+    {
+      "result": "6 2 6 8 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13007",
+          "drawTime": "2013-01-07"
+        },
+        {
+          "drawNum": "21047",
+          "drawTime": "2021-02-26"
+        }
+      ]
+    },
+    {
+      "result": "2 5 2 5 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19056",
+          "drawTime": "2019-03-04"
+        },
+        {
+          "drawNum": "21045",
+          "drawTime": "2021-02-24"
+        }
+      ]
+    },
+    {
+      "result": "4 2 6 7 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17006",
+          "drawTime": "2017-01-06"
+        },
+        {
+          "drawNum": "21026",
+          "drawTime": "2021-01-26"
+        }
+      ]
+    },
+    {
+      "result": "4 6 8 2 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "20258",
+          "drawTime": "2020-11-07"
+        },
+        {
+          "drawNum": "21018",
+          "drawTime": "2021-01-18"
+        }
+      ]
+    },
+    {
+      "result": "5 8 0 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "17093",
+          "drawTime": "2017-04-10"
+        },
+        {
+          "drawNum": "20311",
+          "drawTime": "2020-12-30"
+        }
+      ]
+    },
+    {
+      "result": "3 7 3 5 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "20150",
+          "drawTime": "2020-07-18"
+        },
+        {
+          "drawNum": "20305",
+          "drawTime": "2020-12-24"
+        }
+      ]
+    },
+    {
+      "result": "9 5 1 7 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15051",
+          "drawTime": "2015-02-27"
+        },
+        {
+          "drawNum": "20281",
+          "drawTime": "2020-11-30"
+        }
+      ]
+    },
+    {
+      "result": "6 9 3 7 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12163",
+          "drawTime": "2012-06-18"
+        },
+        {
+          "drawNum": "20269",
+          "drawTime": "2020-11-18"
+        }
+      ]
+    },
+    {
+      "result": "2 3 0 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09297",
+          "drawTime": "2009-10-31"
+        },
+        {
+          "drawNum": "20259",
+          "drawTime": "2020-11-08"
+        }
+      ]
+    },
+    {
+      "result": "1 2 0 1 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15291",
+          "drawTime": "2015-10-25"
+        },
+        {
+          "drawNum": "20254",
+          "drawTime": "2020-11-03"
+        }
+      ]
+    },
+    {
+      "result": "2 5 2 3 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18057",
+          "drawTime": "2018-03-05"
+        },
+        {
+          "drawNum": "20251",
+          "drawTime": "2020-10-31"
+        }
+      ]
+    },
+    {
+      "result": "7 0 0 5 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11193",
+          "drawTime": "2011-07-19"
+        },
+        {
+          "drawNum": "20249",
+          "drawTime": "2020-10-29"
+        }
+      ]
+    },
+    {
+      "result": "7 1 9 0 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07243",
+          "drawTime": "2007-09-08"
+        },
+        {
+          "drawNum": "20217",
+          "drawTime": "2020-09-23"
+        }
+      ]
+    },
+    {
+      "result": "7 3 3 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06147",
+          "drawTime": "2006-06-04"
+        },
+        {
+          "drawNum": "20190",
+          "drawTime": "2020-08-27"
+        }
+      ]
+    },
+    {
+      "result": "8 0 0 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15047",
+          "drawTime": "2015-02-16"
+        },
+        {
+          "drawNum": "20151",
+          "drawTime": "2020-07-19"
+        }
+      ]
+    },
+    {
+      "result": "3 2 8 7 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15220",
+          "drawTime": "2015-08-15"
+        },
+        {
+          "drawNum": "20094",
+          "drawTime": "2020-05-23"
+        }
+      ]
+    },
+    {
+      "result": "3 5 6 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10178",
+          "drawTime": "2010-07-04"
+        },
+        {
+          "drawNum": "20078",
+          "drawTime": "2020-05-07"
+        }
+      ]
+    },
+    {
+      "result": "5 8 5 5 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12303",
+          "drawTime": "2012-11-05"
+        },
+        {
+          "drawNum": "20075",
+          "drawTime": "2020-05-04"
+        }
+      ]
+    },
+    {
+      "result": "8 5 4 0 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19269",
+          "drawTime": "2019-10-10"
+        },
+        {
+          "drawNum": "20048",
+          "drawTime": "2020-04-07"
+        }
+      ]
+    },
+    {
+      "result": "4 2 4 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12060",
+          "drawTime": "2012-03-07"
+        },
+        {
+          "drawNum": "20025",
+          "drawTime": "2020-03-15"
+        }
+      ]
+    },
+    {
+      "result": "0 6 1 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05095",
+          "drawTime": "2005-04-12"
+        },
+        {
+          "drawNum": "20023",
+          "drawTime": "2020-03-13"
+        }
+      ]
+    },
+    {
+      "result": "3 8 3 9 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12153",
+          "drawTime": "2012-06-08"
+        },
+        {
+          "drawNum": "19340",
+          "drawTime": "2019-12-20"
+        }
+      ]
+    },
+    {
+      "result": "7 4 4 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11035",
+          "drawTime": "2011-02-11"
+        },
+        {
+          "drawNum": "19302",
+          "drawTime": "2019-11-12"
+        }
+      ]
+    },
+    {
+      "result": "0 3 5 4 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "19091",
+          "drawTime": "2019-04-08"
+        },
+        {
+          "drawNum": "19267",
+          "drawTime": "2019-10-08"
+        }
+      ]
+    },
+    {
+      "result": "6 6 9 7 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11308",
+          "drawTime": "2011-11-11"
+        },
+        {
+          "drawNum": "19264",
+          "drawTime": "2019-09-28"
+        }
+      ]
+    },
+    {
+      "result": "8 7 1 1 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18149",
+          "drawTime": "2018-06-05"
+        },
+        {
+          "drawNum": "19257",
+          "drawTime": "2019-09-21"
+        }
+      ]
+    },
+    {
+      "result": "4 1 6 7 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05010",
+          "drawTime": "2005-01-10"
+        },
+        {
+          "drawNum": "19252",
+          "drawTime": "2019-09-16"
+        }
+      ]
+    },
+    {
+      "result": "4 9 1 6 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07178",
+          "drawTime": "2007-07-05"
+        },
+        {
+          "drawNum": "19239",
+          "drawTime": "2019-09-03"
+        }
+      ]
+    },
+    {
+      "result": "7 7 3 6 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18089",
+          "drawTime": "2018-04-06"
+        },
+        {
+          "drawNum": "19210",
+          "drawTime": "2019-08-05"
+        }
+      ]
+    },
+    {
+      "result": "8 9 0 9 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18070",
+          "drawTime": "2018-03-18"
+        },
+        {
+          "drawNum": "19189",
+          "drawTime": "2019-07-15"
+        }
+      ]
+    },
+    {
+      "result": "0 8 1 1 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12228",
+          "drawTime": "2012-08-22"
+        },
+        {
+          "drawNum": "19155",
+          "drawTime": "2019-06-11"
+        }
+      ]
+    },
+    {
+      "result": "5 4 0 5 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05106",
+          "drawTime": "2005-04-23"
+        },
+        {
+          "drawNum": "19129",
+          "drawTime": "2019-05-16"
+        }
+      ]
+    },
+    {
+      "result": "1 8 9 1 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14094",
+          "drawTime": "2014-04-12"
+        },
+        {
+          "drawNum": "19126",
+          "drawTime": "2019-05-13"
+        }
+      ]
+    },
+    {
+      "result": "0 7 1 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11071",
+          "drawTime": "2011-03-19"
+        },
+        {
+          "drawNum": "19097",
+          "drawTime": "2019-04-14"
+        }
+      ]
+    },
+    {
+      "result": "3 8 2 3 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "18193",
+          "drawTime": "2018-07-19"
+        },
+        {
+          "drawNum": "19089",
+          "drawTime": "2019-04-06"
+        }
+      ]
+    },
+    {
+      "result": "1 0 4 1 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05050",
+          "drawTime": "2005-02-26"
+        },
+        {
+          "drawNum": "19059",
+          "drawTime": "2019-03-07"
+        }
+      ]
+    },
+    {
+      "result": "0 6 6 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10231",
+          "drawTime": "2010-08-26"
+        },
+        {
+          "drawNum": "19039",
+          "drawTime": "2019-02-15"
+        }
+      ]
+    },
+    {
+      "result": "1 4 7 0 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16123",
+          "drawTime": "2016-05-09"
+        },
+        {
+          "drawNum": "19017",
+          "drawTime": "2019-01-17"
+        }
+      ]
+    },
+    {
+      "result": "3 1 8 4 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11197",
+          "drawTime": "2011-07-23"
+        },
+        {
+          "drawNum": "18351",
+          "drawTime": "2018-12-24"
+        }
+      ]
+    },
+    {
+      "result": "2 6 5 0 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07051",
+          "drawTime": "2007-02-28"
+        },
+        {
+          "drawNum": "18323",
+          "drawTime": "2018-11-26"
+        }
+      ]
+    },
+    {
+      "result": "0 5 1 8 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07094",
+          "drawTime": "2007-04-12"
+        },
+        {
+          "drawNum": "18287",
+          "drawTime": "2018-10-21"
+        }
+      ]
+    },
+    {
+      "result": "4 9 2 1 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08219",
+          "drawTime": "2008-08-13"
+        },
+        {
+          "drawNum": "18240",
+          "drawTime": "2018-09-04"
+        }
+      ]
+    },
+    {
+      "result": "9 2 9 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06129",
+          "drawTime": "2006-05-17"
+        },
+        {
+          "drawNum": "18226",
+          "drawTime": "2018-08-21"
+        }
+      ]
+    },
+    {
+      "result": "6 4 8 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05077",
+          "drawTime": "2005-03-25"
+        },
+        {
+          "drawNum": "18225",
+          "drawTime": "2018-08-20"
+        }
+      ]
+    },
+    {
+      "result": "3 2 3 2 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05348",
+          "drawTime": "2005-12-21"
+        },
+        {
+          "drawNum": "18222",
+          "drawTime": "2018-08-17"
+        }
+      ]
+    },
+    {
+      "result": "7 1 3 7 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06187",
+          "drawTime": "2006-07-14"
+        },
+        {
+          "drawNum": "18204",
+          "drawTime": "2018-07-30"
+        }
+      ]
+    },
+    {
+      "result": "1 3 3 8 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05041",
+          "drawTime": "2005-02-17"
+        },
+        {
+          "drawNum": "18197",
+          "drawTime": "2018-07-23"
+        }
+      ]
+    },
+    {
+      "result": "2 6 9 1 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12107",
+          "drawTime": "2012-04-23"
+        },
+        {
+          "drawNum": "18189",
+          "drawTime": "2018-07-15"
+        }
+      ]
+    },
+    {
+      "result": "7 1 6 9 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05296",
+          "drawTime": "2005-10-30"
+        },
+        {
+          "drawNum": "18169",
+          "drawTime": "2018-06-25"
+        }
+      ]
+    },
+    {
+      "result": "3 0 0 1 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11351",
+          "drawTime": "2011-12-24"
+        },
+        {
+          "drawNum": "18158",
+          "drawTime": "2018-06-14"
+        }
+      ]
+    },
+    {
+      "result": "8 2 8 1 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16001",
+          "drawTime": "2016-01-01"
+        },
+        {
+          "drawNum": "18139",
+          "drawTime": "2018-05-26"
+        }
+      ]
+    },
+    {
+      "result": "0 8 6 5 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06030",
+          "drawTime": "2006-02-07"
+        },
+        {
+          "drawNum": "18135",
+          "drawTime": "2018-05-22"
+        }
+      ]
+    },
+    {
+      "result": "9 8 2 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14016",
+          "drawTime": "2014-01-16"
+        },
+        {
+          "drawNum": "18129",
+          "drawTime": "2018-05-16"
+        }
+      ]
+    },
+    {
+      "result": "8 2 0 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13303",
+          "drawTime": "2013-11-06"
+        },
+        {
+          "drawNum": "18116",
+          "drawTime": "2018-05-03"
+        }
+      ]
+    },
+    {
+      "result": "2 5 6 9 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05072",
+          "drawTime": "2005-03-20"
+        },
+        {
+          "drawNum": "18112",
+          "drawTime": "2018-04-29"
+        }
+      ]
+    },
+    {
+      "result": "7 6 7 4 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13346",
+          "drawTime": "2013-12-19"
+        },
+        {
+          "drawNum": "18104",
+          "drawTime": "2018-04-21"
+        }
+      ]
+    },
+    {
+      "result": "3 9 4 4 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14334",
+          "drawTime": "2014-12-08"
+        },
+        {
+          "drawNum": "18098",
+          "drawTime": "2018-04-15"
+        }
+      ]
+    },
+    {
+      "result": "4 7 5 9 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09270",
+          "drawTime": "2009-10-04"
+        },
+        {
+          "drawNum": "18096",
+          "drawTime": "2018-04-13"
+        }
+      ]
+    },
+    {
+      "result": "5 5 4 0 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13159",
+          "drawTime": "2013-06-15"
+        },
+        {
+          "drawNum": "18084",
+          "drawTime": "2018-04-01"
+        }
+      ]
+    },
+    {
+      "result": "1 5 1 5 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07020",
+          "drawTime": "2007-01-20"
+        },
+        {
+          "drawNum": "17266",
+          "drawTime": "2017-09-30"
+        }
+      ]
+    },
+    {
+      "result": "8 7 1 5 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12217",
+          "drawTime": "2012-08-11"
+        },
+        {
+          "drawNum": "17258",
+          "drawTime": "2017-09-22"
+        }
+      ]
+    },
+    {
+      "result": "5 9 4 1 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "14131",
+          "drawTime": "2014-05-19"
+        },
+        {
+          "drawNum": "17197",
+          "drawTime": "2017-07-23"
+        }
+      ]
+    },
+    {
+      "result": "0 0 4 7 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "16283",
+          "drawTime": "2016-10-16"
+        },
+        {
+          "drawNum": "17155",
+          "drawTime": "2017-06-11"
+        }
+      ]
+    },
+    {
+      "result": "6 7 6 5 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08204",
+          "drawTime": "2008-07-29"
+        },
+        {
+          "drawNum": "17091",
+          "drawTime": "2017-04-08"
+        }
+      ]
+    },
+    {
+      "result": "6 3 3 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09138",
+          "drawTime": "2009-05-25"
+        },
+        {
+          "drawNum": "17078",
+          "drawTime": "2017-03-26"
+        }
+      ]
+    },
+    {
+      "result": "8 7 4 9 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08119",
+          "drawTime": "2008-05-05"
+        },
+        {
+          "drawNum": "17021",
+          "drawTime": "2017-01-21"
+        }
+      ]
+    },
+    {
+      "result": "3 4 2 3 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10113",
+          "drawTime": "2010-04-30"
+        },
+        {
+          "drawNum": "17005",
+          "drawTime": "2017-01-05"
+        }
+      ]
+    },
+    {
+      "result": "7 7 5 9 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11186",
+          "drawTime": "2011-07-12"
+        },
+        {
+          "drawNum": "16207",
+          "drawTime": "2016-08-01"
+        }
+      ]
+    },
+    {
+      "result": "6 3 2 6 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11226",
+          "drawTime": "2011-08-21"
+        },
+        {
+          "drawNum": "16180",
+          "drawTime": "2016-07-05"
+        }
+      ]
+    },
+    {
+      "result": "9 0 0 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08332",
+          "drawTime": "2008-12-04"
+        },
+        {
+          "drawNum": "16168",
+          "drawTime": "2016-06-23"
+        }
+      ]
+    },
+    {
+      "result": "6 2 2 3 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13147",
+          "drawTime": "2013-06-03"
+        },
+        {
+          "drawNum": "16153",
+          "drawTime": "2016-06-08"
+        }
+      ]
+    },
+    {
+      "result": "4 9 1 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07302",
+          "drawTime": "2007-11-06"
+        },
+        {
+          "drawNum": "16132",
+          "drawTime": "2016-05-18"
+        }
+      ]
+    },
+    {
+      "result": "6 6 5 1 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13333",
+          "drawTime": "2013-12-06"
+        },
+        {
+          "drawNum": "16131",
+          "drawTime": "2016-05-17"
+        }
+      ]
+    },
+    {
+      "result": "9 9 7 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05172",
+          "drawTime": "2005-06-28"
+        },
+        {
+          "drawNum": "16085",
+          "drawTime": "2016-04-01"
+        }
+      ]
+    },
+    {
+      "result": "7 8 0 2 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "04042",
+          "drawTime": "2004-12-29"
+        },
+        {
+          "drawNum": "15331",
+          "drawTime": "2015-12-04"
+        }
+      ]
+    },
+    {
+      "result": "0 5 6 5 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08205",
+          "drawTime": "2008-07-30"
+        },
+        {
+          "drawNum": "15330",
+          "drawTime": "2015-12-03"
+        }
+      ]
+    },
+    {
+      "result": "1 6 9 7 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10353",
+          "drawTime": "2010-12-26"
+        },
+        {
+          "drawNum": "15323",
+          "drawTime": "2015-11-26"
+        }
+      ]
+    },
+    {
+      "result": "5 4 9 2 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08324",
+          "drawTime": "2008-11-26"
+        },
+        {
+          "drawNum": "15305",
+          "drawTime": "2015-11-08"
+        }
+      ]
+    },
+    {
+      "result": "8 0 8 0 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06130",
+          "drawTime": "2006-05-18"
+        },
+        {
+          "drawNum": "15268",
+          "drawTime": "2015-10-02"
+        }
+      ]
+    },
+    {
+      "result": "9 2 5 4 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06017",
+          "drawTime": "2006-01-17"
+        },
+        {
+          "drawNum": "15265",
+          "drawTime": "2015-09-29"
+        }
+      ]
+    },
+    {
+      "result": "4 9 4 3 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05194",
+          "drawTime": "2005-07-20"
+        },
+        {
+          "drawNum": "15251",
+          "drawTime": "2015-09-15"
+        }
+      ]
+    },
+    {
+      "result": "7 1 3 2 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07197",
+          "drawTime": "2007-07-24"
+        },
+        {
+          "drawNum": "15250",
+          "drawTime": "2015-09-14"
+        }
+      ]
+    },
+    {
+      "result": "4 6 5 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12018",
+          "drawTime": "2012-01-18"
+        },
+        {
+          "drawNum": "15235",
+          "drawTime": "2015-08-30"
+        }
+      ]
+    },
+    {
+      "result": "4 3 6 0 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07224",
+          "drawTime": "2007-08-20"
+        },
+        {
+          "drawNum": "15234",
+          "drawTime": "2015-08-29"
+        }
+      ]
+    },
+    {
+      "result": "8 8 1 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08319",
+          "drawTime": "2008-11-21"
+        },
+        {
+          "drawNum": "15206",
+          "drawTime": "2015-08-01"
+        }
+      ]
+    },
+    {
+      "result": "8 6 2 5 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13102",
+          "drawTime": "2013-04-19"
+        },
+        {
+          "drawNum": "15196",
+          "drawTime": "2015-07-22"
+        }
+      ]
+    },
+    {
+      "result": "2 2 4 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09301",
+          "drawTime": "2009-11-04"
+        },
+        {
+          "drawNum": "15154",
+          "drawTime": "2015-06-10"
+        }
+      ]
+    },
+    {
+      "result": "2 3 2 7 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "15042",
+          "drawTime": "2015-02-11"
+        },
+        {
+          "drawNum": "15129",
+          "drawTime": "2015-05-16"
+        }
+      ]
+    },
+    {
+      "result": "4 9 9 0 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06179",
+          "drawTime": "2006-07-06"
+        },
+        {
+          "drawNum": "15103",
+          "drawTime": "2015-04-20"
+        }
+      ]
+    },
+    {
+      "result": "8 8 0 0 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09093",
+          "drawTime": "2009-04-10"
+        },
+        {
+          "drawNum": "15017",
+          "drawTime": "2015-01-17"
+        }
+      ]
+    },
+    {
+      "result": "7 4 9 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08157",
+          "drawTime": "2008-06-12"
+        },
+        {
+          "drawNum": "15002",
+          "drawTime": "2015-01-02"
+        }
+      ]
+    },
+    {
+      "result": "2 6 6 5 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13014",
+          "drawTime": "2013-01-14"
+        },
+        {
+          "drawNum": "14350",
+          "drawTime": "2014-12-24"
+        }
+      ]
+    },
+    {
+      "result": "9 7 6 8 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06161",
+          "drawTime": "2006-06-18"
+        },
+        {
+          "drawNum": "14342",
+          "drawTime": "2014-12-16"
+        }
+      ]
+    },
+    {
+      "result": "3 5 4 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08225",
+          "drawTime": "2008-08-19"
+        },
+        {
+          "drawNum": "14327",
+          "drawTime": "2014-12-01"
+        }
+      ]
+    },
+    {
+      "result": "6 5 2 9 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11132",
+          "drawTime": "2011-05-19"
+        },
+        {
+          "drawNum": "14321",
+          "drawTime": "2014-11-25"
+        }
+      ]
+    },
+    {
+      "result": "2 4 5 2 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10218",
+          "drawTime": "2010-08-13"
+        },
+        {
+          "drawNum": "14288",
+          "drawTime": "2014-10-23"
+        }
+      ]
+    },
+    {
+      "result": "1 7 7 3 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12317",
+          "drawTime": "2012-11-19"
+        },
+        {
+          "drawNum": "14250",
+          "drawTime": "2014-09-15"
+        }
+      ]
+    },
+    {
+      "result": "4 1 9 7 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12304",
+          "drawTime": "2012-11-06"
+        },
+        {
+          "drawNum": "14238",
+          "drawTime": "2014-09-03"
+        }
+      ]
+    },
+    {
+      "result": "0 2 5 7 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12333",
+          "drawTime": "2012-12-05"
+        },
+        {
+          "drawNum": "14200",
+          "drawTime": "2014-07-27"
+        }
+      ]
+    },
+    {
+      "result": "5 3 9 1 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05256",
+          "drawTime": "2005-09-20"
+        },
+        {
+          "drawNum": "14192",
+          "drawTime": "2014-07-19"
+        }
+      ]
+    },
+    {
+      "result": "0 2 8 0 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07250",
+          "drawTime": "2007-09-15"
+        },
+        {
+          "drawNum": "14152",
+          "drawTime": "2014-06-09"
+        }
+      ]
+    },
+    {
+      "result": "4 1 5 3 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06070",
+          "drawTime": "2006-03-19"
+        },
+        {
+          "drawNum": "14145",
+          "drawTime": "2014-06-02"
+        }
+      ]
+    },
+    {
+      "result": "2 0 3 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06073",
+          "drawTime": "2006-03-22"
+        },
+        {
+          "drawNum": "14122",
+          "drawTime": "2014-05-10"
+        }
+      ]
+    },
+    {
+      "result": "6 7 8 2 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06156",
+          "drawTime": "2006-06-13"
+        },
+        {
+          "drawNum": "14056",
+          "drawTime": "2014-03-05"
+        }
+      ]
+    },
+    {
+      "result": "1 3 4 7 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10289",
+          "drawTime": "2010-10-23"
+        },
+        {
+          "drawNum": "14008",
+          "drawTime": "2014-01-08"
+        }
+      ]
+    },
+    {
+      "result": "6 1 2 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08042",
+          "drawTime": "2008-02-18"
+        },
+        {
+          "drawNum": "14003",
+          "drawTime": "2014-01-03"
+        }
+      ]
+    },
+    {
+      "result": "4 5 5 2 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09065",
+          "drawTime": "2009-03-13"
+        },
+        {
+          "drawNum": "13317",
+          "drawTime": "2013-11-20"
+        }
+      ]
+    },
+    {
+      "result": "4 9 7 9 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07108",
+          "drawTime": "2007-04-26"
+        },
+        {
+          "drawNum": "13315",
+          "drawTime": "2013-11-18"
+        }
+      ]
+    },
+    {
+      "result": "7 0 0 7 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11105",
+          "drawTime": "2011-04-22"
+        },
+        {
+          "drawNum": "13314",
+          "drawTime": "2013-11-17"
+        }
+      ]
+    },
+    {
+      "result": "6 9 4 2 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06047",
+          "drawTime": "2006-02-24"
+        },
+        {
+          "drawNum": "13311",
+          "drawTime": "2013-11-14"
+        }
+      ]
+    },
+    {
+      "result": "5 7 1 5 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12246",
+          "drawTime": "2012-09-09"
+        },
+        {
+          "drawNum": "13285",
+          "drawTime": "2013-10-19"
+        }
+      ]
+    },
+    {
+      "result": "1 6 5 1 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05171",
+          "drawTime": "2005-06-27"
+        },
+        {
+          "drawNum": "13275",
+          "drawTime": "2013-10-09"
+        }
+      ]
+    },
+    {
+      "result": "6 8 2 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "12090",
+          "drawTime": "2012-04-06"
+        },
+        {
+          "drawNum": "13237",
+          "drawTime": "2013-09-01"
+        }
+      ]
+    },
+    {
+      "result": "2 7 3 2 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10281",
+          "drawTime": "2010-10-15"
+        },
+        {
+          "drawNum": "13169",
+          "drawTime": "2013-06-25"
+        }
+      ]
+    },
+    {
+      "result": "3 3 0 7 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11108",
+          "drawTime": "2011-04-25"
+        },
+        {
+          "drawNum": "13072",
+          "drawTime": "2013-03-20"
+        }
+      ]
+    },
+    {
+      "result": "5 3 0 7 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "13043",
+          "drawTime": "2013-02-19"
+        },
+        {
+          "drawNum": "13060",
+          "drawTime": "2013-03-08"
+        }
+      ]
+    },
+    {
+      "result": "8 1 4 1 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09171",
+          "drawTime": "2009-06-27"
+        },
+        {
+          "drawNum": "12328",
+          "drawTime": "2012-11-30"
+        }
+      ]
+    },
+    {
+      "result": "0 8 7 8 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07308",
+          "drawTime": "2007-11-12"
+        },
+        {
+          "drawNum": "12299",
+          "drawTime": "2012-11-01"
+        }
+      ]
+    },
+    {
+      "result": "0 1 0 4 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08085",
+          "drawTime": "2008-04-01"
+        },
+        {
+          "drawNum": "12282",
+          "drawTime": "2012-10-15"
+        }
+      ]
+    },
+    {
+      "result": "9 4 0 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07328",
+          "drawTime": "2007-12-02"
+        },
+        {
+          "drawNum": "12149",
+          "drawTime": "2012-06-04"
+        }
+      ]
+    },
+    {
+      "result": "8 3 5 7 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08034",
+          "drawTime": "2008-02-03"
+        },
+        {
+          "drawNum": "12091",
+          "drawTime": "2012-04-07"
+        }
+      ]
+    },
+    {
+      "result": "7 7 2 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06303",
+          "drawTime": "2006-11-07"
+        },
+        {
+          "drawNum": "12080",
+          "drawTime": "2012-03-27"
+        }
+      ]
+    },
+    {
+      "result": "0 9 4 3 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10167",
+          "drawTime": "2010-06-23"
+        },
+        {
+          "drawNum": "11311",
+          "drawTime": "2011-11-14"
+        }
+      ]
+    },
+    {
+      "result": "3 2 2 9 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10347",
+          "drawTime": "2010-12-20"
+        },
+        {
+          "drawNum": "11304",
+          "drawTime": "2011-11-07"
+        }
+      ]
+    },
+    {
+      "result": "0 0 6 8 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10153",
+          "drawTime": "2010-06-09"
+        },
+        {
+          "drawNum": "11299",
+          "drawTime": "2011-11-02"
+        }
+      ]
+    },
+    {
+      "result": "6 0 4 4 5",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07182",
+          "drawTime": "2007-07-09"
+        },
+        {
+          "drawNum": "11290",
+          "drawTime": "2011-10-24"
+        }
+      ]
+    },
+    {
+      "result": "3 8 2 1 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "04044",
+          "drawTime": "2004-12-31"
+        },
+        {
+          "drawNum": "11279",
+          "drawTime": "2011-10-13"
+        }
+      ]
+    },
+    {
+      "result": "7 8 6 3 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10166",
+          "drawTime": "2010-06-22"
+        },
+        {
+          "drawNum": "11267",
+          "drawTime": "2011-10-01"
+        }
+      ]
+    },
+    {
+      "result": "3 3 1 6 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10155",
+          "drawTime": "2010-06-11"
+        },
+        {
+          "drawNum": "11212",
+          "drawTime": "2011-08-07"
+        }
+      ]
+    },
+    {
+      "result": "8 4 3 2 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09070",
+          "drawTime": "2009-03-18"
+        },
+        {
+          "drawNum": "11177",
+          "drawTime": "2011-07-03"
+        }
+      ]
+    },
+    {
+      "result": "4 2 0 5 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05006",
+          "drawTime": "2005-01-06"
+        },
+        {
+          "drawNum": "11129",
+          "drawTime": "2011-05-16"
+        }
+      ]
+    },
+    {
+      "result": "5 0 0 4 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10027",
+          "drawTime": "2010-01-27"
+        },
+        {
+          "drawNum": "11093",
+          "drawTime": "2011-04-10"
+        }
+      ]
+    },
+    {
+      "result": "8 2 3 4 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09358",
+          "drawTime": "2009-12-31"
+        },
+        {
+          "drawNum": "11079",
+          "drawTime": "2011-03-27"
+        }
+      ]
+    },
+    {
+      "result": "4 1 6 8 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07340",
+          "drawTime": "2007-12-14"
+        },
+        {
+          "drawNum": "11044",
+          "drawTime": "2011-02-20"
+        }
+      ]
+    },
+    {
+      "result": "5 7 8 7 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "11020",
+          "drawTime": "2011-01-20"
+        },
+        {
+          "drawNum": "11021",
+          "drawTime": "2011-01-21"
+        }
+      ]
+    },
+    {
+      "result": "7 3 3 7 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06137",
+          "drawTime": "2006-05-25"
+        },
+        {
+          "drawNum": "10319",
+          "drawTime": "2010-11-22"
+        }
+      ]
+    },
+    {
+      "result": "8 5 4 0 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "10075",
+          "drawTime": "2010-03-23"
+        },
+        {
+          "drawNum": "10230",
+          "drawTime": "2010-08-25"
+        }
+      ]
+    },
+    {
+      "result": "6 3 4 9 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09179",
+          "drawTime": "2009-07-05"
+        },
+        {
+          "drawNum": "10140",
+          "drawTime": "2010-05-27"
+        }
+      ]
+    },
+    {
+      "result": "0 4 5 3 4",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05201",
+          "drawTime": "2005-07-27"
+        },
+        {
+          "drawNum": "10139",
+          "drawTime": "2010-05-26"
+        }
+      ]
+    },
+    {
+      "result": "9 1 3 9 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09229",
+          "drawTime": "2009-08-24"
+        },
+        {
+          "drawNum": "10128",
+          "drawTime": "2010-05-15"
+        }
+      ]
+    },
+    {
+      "result": "4 1 5 6 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09068",
+          "drawTime": "2009-03-16"
+        },
+        {
+          "drawNum": "10044",
+          "drawTime": "2010-02-20"
+        }
+      ]
+    },
+    {
+      "result": "1 0 8 1 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08222",
+          "drawTime": "2008-08-16"
+        },
+        {
+          "drawNum": "10016",
+          "drawTime": "2010-01-16"
+        }
+      ]
+    },
+    {
+      "result": "8 2 7 0 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05245",
+          "drawTime": "2005-09-09"
+        },
+        {
+          "drawNum": "09318",
+          "drawTime": "2009-11-21"
+        }
+      ]
+    },
+    {
+      "result": "9 0 6 6 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "09180",
+          "drawTime": "2009-07-06"
+        },
+        {
+          "drawNum": "09293",
+          "drawTime": "2009-10-27"
+        }
+      ]
+    },
+    {
+      "result": "9 9 0 4 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08028",
+          "drawTime": "2008-01-28"
+        },
+        {
+          "drawNum": "09252",
+          "drawTime": "2009-09-16"
+        }
+      ]
+    },
+    {
+      "result": "9 3 7 0 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07095",
+          "drawTime": "2007-04-13"
+        },
+        {
+          "drawNum": "09192",
+          "drawTime": "2009-07-18"
+        }
+      ]
+    },
+    {
+      "result": "7 0 0 6 8",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06185",
+          "drawTime": "2006-07-12"
+        },
+        {
+          "drawNum": "09021",
+          "drawTime": "2009-01-21"
+        }
+      ]
+    },
+    {
+      "result": "4 8 9 9 0",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06049",
+          "drawTime": "2006-02-26"
+        },
+        {
+          "drawNum": "08306",
+          "drawTime": "2008-11-08"
+        }
+      ]
+    },
+    {
+      "result": "8 9 4 2 2",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05140",
+          "drawTime": "2005-05-27"
+        },
+        {
+          "drawNum": "08279",
+          "drawTime": "2008-10-12"
+        }
+      ]
+    },
+    {
+      "result": "7 5 7 5 1",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "08100",
+          "drawTime": "2008-04-16"
+        },
+        {
+          "drawNum": "08257",
+          "drawTime": "2008-09-20"
+        }
+      ]
+    },
+    {
+      "result": "4 6 2 0 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05139",
+          "drawTime": "2005-05-26"
+        },
+        {
+          "drawNum": "08167",
+          "drawTime": "2008-06-22"
+        }
+      ]
+    },
+    {
+      "result": "0 9 1 4 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07005",
+          "drawTime": "2007-01-05"
+        },
+        {
+          "drawNum": "07318",
+          "drawTime": "2007-11-22"
+        }
+      ]
+    },
+    {
+      "result": "9 1 2 4 3",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "07144",
+          "drawTime": "2007-06-01"
+        },
+        {
+          "drawNum": "07261",
+          "drawTime": "2007-09-26"
+        }
+      ]
+    },
+    {
+      "result": "9 5 1 1 7",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "06279",
+          "drawTime": "2006-10-14"
+        },
+        {
+          "drawNum": "07152",
+          "drawTime": "2007-06-09"
+        }
+      ]
+    },
+    {
+      "result": "1 6 2 8 9",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05128",
+          "drawTime": "2005-05-15"
+        },
+        {
+          "drawNum": "06086",
+          "drawTime": "2006-04-04"
+        }
+      ]
+    },
+    {
+      "result": "8 5 3 2 6",
+      "count": 2,
+      "draws": [
+        {
+          "drawNum": "05286",
+          "drawTime": "2005-10-20"
+        },
+        {
+          "drawNum": "06041",
+          "drawTime": "2006-02-18"
+        }
+      ]
+    }
+  ]
+}
